@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+  <title>Record Wave Example</title>
+  <link href="assets/styles/index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <section>
+    <h1 id="title">Start Speak...</h1>
+    <div id="switch-mode">
+      <label class="radio mgr2">
+        <input name="mode" type="radio" value="wave" checked="checked">
+        <span>wave</span>
+      </label>
+      <label class="radio">
+        <input name="mode" type="radio" value="bar">
+        <span>bar</span>
+      </label>
+    </div>
+    <canvas id="wave-canvas"></canvas>
+  </section>
+  <script type="text/javascript" src="assets/scripts/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: radial-gradient(farthest-side, rgba(0, 0, 0, 0) 90%, rgba(0, 0, 0, 0.2) 150%) #fff;
+}
+
+body > section {
+  display: -webkit-flex;
+  height: 100%;
+  -webkit-align-content: center;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+}
+
+#title,
+#switch-mode {
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0);
+}
+
+#switch-mode {
+  top: 80px;
+}
+
+.mgr2 {
+  margin-right: 20px;
+}
+
+label.radio {
+  cursor: pointer;
+}
+
+label.radio > input {
+  margin-left: -99999px;
+  position: absolute;
+}
+
+label.radio > input:checked + span {
+  background-color: #c62b26;
+  color: white;
+}
+
+label.radio > span {
+  border: 1px solid #f0f0f0;
+  padding: 10px 20px;
+}
+
+#wave-canvas {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+}
